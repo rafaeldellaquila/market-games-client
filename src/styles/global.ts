@@ -1,6 +1,7 @@
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyles = createGlobalStyle`
+
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
@@ -25,6 +26,7 @@ const GlobalStyles = createGlobalStyle`
   src: local('Poppins SemiBold'), local('Poppins-SemiBold'),
        url('/fonts/poppins-v15-latin-600.woff2') format('woff2');
 }
+
   * {
     margin: 0;
     padding: 0;
