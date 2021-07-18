@@ -8,7 +8,7 @@ describe('<Logo />', () => {
     //render component 'render'
     //select the element to be tested 'screen' (queries)
     //expect - analysys
-    renderWithTheme(<Logo />)
+    renderWithTheme(<Logo color="white" />)
     expect(screen.getByLabelText(/Won Games/i).parentElement).toHaveStyle({
       color: '#FAFAFA'
     })
