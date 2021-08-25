@@ -23,7 +23,7 @@ const GlobalStyles = createGlobalStyle`
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: local('Poppins SemiBold'), local('Poppins-SemiBold'),
+  src: local('Poppins SemiBold'), local('Poppins-SemiBold')
        url('/fonts/poppins-v15-latin-600.woff2') format('woff2');
 }
 
