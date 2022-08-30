@@ -1,9 +1,11 @@
 import { useState } from 'react'
 import * as S from './styles'
 import { Menu2 as MenuIcon } from '@styled-icons/remix-fill/Menu2'
-import { ShoppingCart as ShoppingCartIcon } from '@styled-icons/material-outlined'
-import { Search as SearchIcon } from '@styled-icons/material-outlined'
-import { Close as CloseIcon } from '@styled-icons/material-outlined'
+import {
+  ShoppingCart as ShoppingCartIcon,
+  Search as SearchIcon,
+  Close as CloseIcon
+} from '@styled-icons/material-outlined'
 import Logo from 'components/Logo'
 import Button from '../Button/index'
 import MediaMatch from 'components/MediaMatch'
