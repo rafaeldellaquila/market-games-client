@@ -9,7 +9,9 @@ function App({ Component, pageProps }: AppProps) {
     <ThemeProvider theme={theme}>
       <Head>
         <title>Won Games</title>
-        <meta name="description" content="E-commerce game site" />
+        <meta name="description" content="The best game store" />
+        <link rel="shortcut icon" href="/img/icon-512.png" />
+        <link rel="apple-touch-icon" href="/img/icon-512.png" />
         <link rel="manifest" href="/public/manifest.json" />
       </Head>
       <GlobalStyles />
