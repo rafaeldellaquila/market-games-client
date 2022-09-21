@@ -7,7 +7,7 @@ describe('<Footer />', () => {
   it('should render 4 columns topics', () => {
     renderWithTheme(<Footer />)
     expect(
-      screen.getByRole('heading', { name: /contact/i })
+      screen.getByRole('heading', { name: /contact us/i })
     ).toBeInTheDocument()
 
     expect(
